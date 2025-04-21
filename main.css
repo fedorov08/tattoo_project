@@ -283,3 +283,64 @@ a{
     color: white;
     text-decoration: none;
 }
+.button_pop-up{
+    /* display: none; */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modul-content{
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%  ;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+#close_form{
+    color: #cc9960;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+
+input[type="text"],input[type="tel"]{
+    
+    border-color: #cc9960;
+    border-radius:5px;
+    width: 100%;
+    padding: 10px;
+}
+.form_input{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-top: 5px;
+}
+.button_sub{
+    padding: 15px;
+    width: 100%;
+    background-color: #cc9960;
+    border-color: #b67020;
+    cursor: pointer;
+}
+.Form_h2{
+    margin-top: 0;
+}
+
+#close_form:hover{
+    color: #7c4b13;
+}
+
+.button_sub:hover{
+    background-color: #7c4b13;
+}
