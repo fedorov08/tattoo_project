@@ -17,3 +17,6 @@ forward.addEventListener("click", function() {
     index=(index==totalSlides-1) ? 0 : index+1
     UpdateSlider()
 })
+setInterval(()=>{
+    forward.click()
+},4000)
