@@ -12,3 +12,8 @@ summon_button.addEventListener("click",function (e){
 close_form.addEventListener("click",function (e){
     popup_window.style.display = "none"
 })
+window.addEventListener("click",function (e) {
+    if (e.target==popup_window){
+    popup_window.style.display = "none"
+    }
+})
